@@ -150,18 +150,20 @@ BIOMED_ROLES = [
         "dates": "Aug 2024 - Feb 2025",
         "bullets": [
             "Led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, "
-            "Malawi, Somaliland, and Rwanda, directing biomedical programme planning, equipment "
-            "procurement, installation, and commissioning.",
+            "Malawi, Somaliland, and Rwanda; coordinated equipment inventory, planning, "
+            "assessment, technical advisory, procurement, installation, and commissioning.",
             "Trained biomedical engineers and technicians and clinical users, including doctors, "
             "nurses, and apprentices, on equipment use and care; upheld healthcare technology standards.",
+            "Led the NICU upgrade at Mama Lucy Kibaki Hospital, Nairobi, Kenya, and developed "
+            "standard operating procedures (SOPs) for supported equipment in partner facilities.",
         ],
     },
     {
         "title": "Biomedical Manager, International Hospital Kampala (IHK)",
         "dates": "Jan 2020 - Jan 2024",
         "bullets": [
-            "Managed biomedical work for a large private hospital, including CT, oxygen plant, "
-            "X-ray, and ICU projects.",
+            "Led IHK upgrades of theatre, laboratory, NICU, and oxygen plant, and installation "
+            "of a 64-slice CT scanner and digital X-ray; supported ICU equipment projects.",
             "Developed oxygen-consumption models for capacity and stock planning; maintained "
             "preventive maintenance schedules, service records, and COHSASA compliance evidence.",
         ],
@@ -430,8 +432,9 @@ def build_letter_docx(path: Path) -> None:
         "Laravel, AWS), endoscopy reporting software for two hospitals, and the Wekebere "
         "Android monitoring app. Separately, I built and deployed an AI reception agent for "
         "a law firm in Texas that answers calls, manages appointments, and follows up with "
-        "clients - and it is in active use. My analytical experience includes oxygen-demand "
-        "modelling and compliance evidence at IHK, laboratory data analysis and Python research "
+        "clients - and it is in active use. At IHK I led 64-slice CT and digital X-ray installation; "
+        "my analytical experience includes oxygen-demand modelling and compliance evidence "
+        "there, laboratory data analysis and Python research "
         "pipelines at UVRI, and current FCHIP analysis using Python, SQL, data-quality checks, "
         "and dashboards at FairBanks Medical Centre.",
     )
@@ -440,7 +443,8 @@ def build_letter_docx(path: Path) -> None:
         "As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical "
         "engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, "
         "Somaliland, and Rwanda. I trained engineering teams and clinical users, including "
-        "doctors, nurses, and apprentices.",
+        "doctors, nurses, and apprentices. I led the NICU upgrade at Mama Lucy Kibaki Hospital "
+        "in Nairobi, Kenya, and developed equipment SOPs for partner facilities.",
     )
     body_para(
         doc,
@@ -587,12 +591,14 @@ def bullets_flow(items, styles):
     return flow
 
 
-def role_block(title: str, meta: str, bullets: list[str], styles):
+def role_block(title: str, meta: str, bullets: list[str], styles, section: str | None = None):
     parts = [
         Paragraph(title, styles["Role"]),
         Paragraph(meta, styles["Meta"]),
         *bullets_flow(bullets, styles),
     ]
+    if section:
+        parts[:0] = [Paragraph(section, styles["Sec"]), hr()]
     return KeepTogether(parts)
 
 
@@ -647,10 +653,13 @@ def build_cv_pdf(path: Path) -> None:
     for proj in PROJECTS:
         story.append(role_block(proj["name"], proj["meta"], proj["bullets"], styles))
 
-    story.append(Paragraph("HOSPITAL AND BIOMEDICAL WORK", styles["Sec"]))
-    story.append(hr())
-    for role in BIOMED_ROLES:
-        story.append(role_block(role["title"], role["dates"], role["bullets"], styles))
+    for index, role in enumerate(BIOMED_ROLES):
+        story.append(
+            role_block(
+                role["title"], role["dates"], role["bullets"], styles,
+                section="HOSPITAL AND BIOMEDICAL WORK" if index == 0 else None,
+            )
+        )
 
     story.append(Paragraph("EARLIER ROLES", styles["Sec"]))
     story.append(hr())
@@ -722,8 +731,9 @@ def build_letter_pdf(path: Path) -> None:
             "Laravel, AWS), endoscopy reporting software for two hospitals, and the Wekebere "
             "Android monitoring app. Separately, I built and deployed an AI reception agent for "
             "a law firm in Texas that answers calls, manages appointments, and follows up with "
-            "clients - and it is in active use. My analytical experience includes oxygen-demand "
-            "modelling and compliance evidence at IHK, laboratory data analysis and Python research "
+            "clients - and it is in active use. At IHK I led 64-slice CT and digital X-ray installation; "
+            "my analytical experience includes oxygen-demand modelling and compliance evidence "
+            "there, laboratory data analysis and Python research "
             "pipelines at UVRI, and current FCHIP analysis using Python, SQL, data-quality checks, "
             "and dashboards at FairBanks Medical Centre.",
             styles["LetterBody"],
@@ -732,7 +742,8 @@ def build_letter_pdf(path: Path) -> None:
             "As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical "
             "engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, "
             "Somaliland, and Rwanda. I trained engineering teams and clinical users, including "
-            "doctors, nurses, and apprentices.",
+            "doctors, nurses, and apprentices. I led the NICU upgrade at Mama Lucy Kibaki Hospital "
+            "in Nairobi, Kenya, and developed equipment SOPs for partner facilities.",
             styles["LetterBody"],
         ),
         Paragraph(
@@ -829,6 +840,8 @@ I applied because Agromavericks is building real software for agricultural finan
 I have practical experience with Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus APIs, databases, authentication, testing, and CI/CD. As Founder and Developer of HOSSPI (https://hosspi.com/), I connect hospital workflows and live analytics. My other software work includes Shulekeeper, endoscopy reporting, Wekebere, and an AI reception agent deployed at a Texas law firm. My analytical background includes oxygen-demand modelling and compliance evidence at IHK, laboratory analysis and Python research pipelines at UVRI, and current FCHIP reporting at FairBanks using Python, SQL, data-quality checks, and dashboards.
 
 As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. I trained engineering teams and clinical users, including doctors, nurses, and apprentices.
+
+My biomedical work includes equipment inventory, planning, assessment, and technical advisory. At IHK, I upgraded theatre, laboratory, NICU, and oxygen plant and led 64-slice CT scanner and digital X-ray installation. At GFF, I led the NICU upgrade at Mama Lucy Kibaki Hospital in Nairobi, Kenya, and developed SOPs for supported equipment in partner facilities.
 
 I live in Kampala, I can work in Uganda legally, and hybrid suits me. I would like to help keep the Agromavericks and Ukofi platforms stable and useful for farmers and financiers.
 

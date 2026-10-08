@@ -287,8 +287,8 @@ SKILLS = [
     ),
     (
         "Client support",
-        "User training, procurement and commissioning support, service "
-        "reports, maintenance logs, accreditation paperwork",
+        "Equipment inventory, planning, assessment and technical advisory; procurement, "
+        "commissioning, user training, service documentation, and SOP development",
     ),
     (
         "How I work",
@@ -332,12 +332,12 @@ ROLES = [
             "Led biomedical engineers and technicians across Uganda, Kenya, "
             "Tanzania, Burundi, Malawi, Somaliland, and Rwanda, directing "
             "biomedical programmes from planning through to equipment readiness.",
-            "Supported buying, installing, and commissioning of medical "
-            "technologies for partner sites.",
+            "Led the NICU upgrade at Mama Lucy Kibaki Hospital, Nairobi, Kenya; "
+            "planned, assessed, procured, installed, and commissioned equipment for partner sites.",
             "Trained biomedical engineers and technicians and clinical users, "
             "including doctors, nurses, and apprentices, on equipment use and care.",
-            "Kept work in line with healthcare technology and quality "
-            "standards, including documentation for programme review.",
+            "Developed standard operating procedures (SOPs) for supported equipment "
+            "in partner facilities; upheld healthcare technology and quality standards.",
         ],
     },
     {
@@ -346,12 +346,11 @@ ROLES = [
         "bullets": [
             "Managed day-to-day biomedical engineering for a major private "
             "hospital for four years.",
-            "Led installation and commissioning of equipment across the IHK "
-            "laboratory, theatre, ICU, and radiology departments.",
-            "Lab leadership included haematology analysers, chemistry "
-            "analysers, and blood bank machines; imaging included CT and "
-            "X-ray; ICU and theatre systems were part of the same programme.",
-            "Also led installs of oxygen plant and related support systems.",
+            "Led upgrades of theatre, laboratory, NICU, and oxygen plant, and "
+            "installation of a 64-slice CT scanner and digital X-ray system.",
+            "Commissioned haematology and chemistry analysers, blood bank machines, "
+            "and ICU systems; managed equipment inventories, planning, assessment, "
+            "and technical advisory.",
             "Developed patient oxygen-consumption models for plant capacity, "
             "cylinder-stock, and flow planning.",
             "Set up preventive maintenance routines to cut downtime and keep "
@@ -395,14 +394,14 @@ ACHIEVEMENTS = [
     "and Rwanda.",
     "7+ years of hands-on hospital biomedical work across Uganda, Congo, "
     "Kenya, Tanzania, and Somaliland.",
-    "At IHK, led equipment installation across laboratory, theatre, ICU, and "
-    "radiology departments.",
+    "At IHK, upgraded theatre, laboratory, NICU, and oxygen plant; led "
+    "64-slice CT scanner and digital X-ray installation.",
     "Installed and supported haematology, chemistry, and blood bank laboratory "
     "machines alongside theatre and radiology systems.",
     "Completed Congo hospital installs including the facility serving Kibali "
     "Gold Mine.",
-    "Commissioned CT, X-ray, oxygen plant, and ICU systems in Uganda and "
-    "supported COHSASA accreditation at IHK.",
+    "At GFF, led the NICU upgrade at Mama Lucy Kibaki Hospital, Nairobi, Kenya, "
+    "and developed equipment SOPs for partner facilities.",
     "Trained biomedical engineers and technicians and clinical users, including "
     "doctors, nurses, and apprentices, on equipment use and care.",
 ]
@@ -486,20 +485,20 @@ LETTER_BODY = [
     "Dear Hiring Manager,",
     (
         "I am applying for Medequip's Biomedical Engineer role in Kigali, "
-        "bringing hospital and regional experience in equipment installation, "
-        "maintenance, and staff training."
+        "bringing regional hospital experience in equipment inventory, planning, "
+        "assessment, technical advisory, maintenance, and training."
     ),
     (
         "I have over 7 years in equipment installation, commissioning, maintenance, "
-        "and user training. I serviced diagnostic and monitoring systems at Norvik "
-        "Hospital. During four years as Biomedical Manager at IHK, I led laboratory, "
-        "theatre, ICU, radiology, and oxygen plant installations, developed oxygen-demand "
-        "models, and maintained COHSASA compliance evidence. As Biomedical Programs "
+        "and user training. At IHK, I upgraded theatre, laboratory, NICU, and oxygen plant, "
+        "installed a 64-slice CT scanner and digital X-ray system, modelled oxygen demand, "
+        "and maintained COHSASA evidence. As Biomedical Programs "
         "Manager at Gould "
         "Family Foundation (GFF), I led biomedical engineers and technicians "
         "across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. "
         "I trained engineering teams and clinical users, including doctors, nurses, "
-        "and apprentices."
+        "and apprentices, led the Mama Lucy Kibaki Hospital NICU upgrade in Nairobi, "
+        "Kenya, and developed standard operating procedures for supported partner equipment."
     ),
     (
         "My independent biomedical contracts since March 2025 cover Uganda, Congo, "
@@ -512,9 +511,8 @@ LETTER_BODY = [
         "and reporting dashboards."
     ),
     (
-        "I hold a BSc in Biomedical Engineering from Makerere University, "
-        "speak fluent English, and am ready to relocate to Kigali, travel for "
-        "assignments, and learn your product lines through international training."
+        "I hold a BSc in Biomedical Engineering from Makerere University, speak fluent "
+        "English, and am ready for Kigali relocation, regional travel, and international product training."
     ),
     (
         "My CV is attached. Thank you for your time - I would be glad to talk."
@@ -707,11 +705,14 @@ def build_cv_docx(path: Path) -> None:
 
     if SIGNATURE_SRC.exists():
         section_title(doc, "Signature")
+        doc.paragraphs[-1].paragraph_format.keep_with_next = True
         add_signature_docx(doc, width_in=1.55)
+        doc.paragraphs[-1].paragraph_format.keep_with_next = True
         name_p = doc.add_paragraph()
         name_p.alignment = WD_ALIGN_PARAGRAPH.LEFT
         name_p.paragraph_format.space_before = Pt(2)
         name_p.paragraph_format.space_after = Pt(1)
+        name_p.paragraph_format.keep_with_next = True
         add_heading_run(name_p, "Wasswa Wilson", 11, True)
         title_p = doc.add_paragraph()
         title_p.alignment = WD_ALIGN_PARAGRAPH.LEFT
@@ -720,6 +721,14 @@ def build_cv_docx(path: Path) -> None:
         r = title_p.add_run("Biomedical Engineer")
         r.font.size = Pt(10.5)
         r.font.color.rgb = RGBColor(0x44, 0x44, 0x44)
+
+    for paragraph in doc.paragraphs:
+        if paragraph.style.name == "List Bullet":
+            paragraph.paragraph_format.line_spacing = 1.08
+        else:
+            spacing = paragraph.paragraph_format.line_spacing
+            if isinstance(spacing, float) and spacing > 1.10:
+                paragraph.paragraph_format.line_spacing = 1.10
 
     add_docx_page_footer(doc)
     doc.save(path)

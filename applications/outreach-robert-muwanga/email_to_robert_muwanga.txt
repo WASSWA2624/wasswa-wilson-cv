@@ -8,13 +8,13 @@ I am Wasswa Wilson, a biomedical programmes leader, data analyst and full-stack 
 
 My experience includes:
 
-  Regional programme leadership. As Biomedical Programs Manager at the Gould Family Foundation, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and Rwanda. I managed regional planning, implementation and reporting, and trained biomedical engineers, technicians and clinical users, including doctors, nurses and apprentices.
+  Regional programme leadership. As Biomedical Programs Manager at the Gould Family Foundation, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and Rwanda. I managed programme planning and reporting, led the neonatal intensive care unit (NICU) upgrade at Mama Lucy Kibaki Hospital, Nairobi, Kenya, and developed standard operating procedures (SOPs) for supported equipment at partner facilities. I trained biomedical teams and clinical users, including doctors, nurses and apprentices.
 
   Hospital software development. I am the founder and developer of HOSSPI (https://hosspi.com/), a hospital management system connecting patient records, clinical care, laboratory and pharmacy workflows, billing and live analytics. It also supports biomedical engineering and role-based access.
 
-  Research, data analysis and reporting. At the Uganda Virus Research Institute, I analysed laboratory data and developed research pipelines in Python. At International Hospital Kampala, I developed and tested oxygen demand models during COVID-19 to support supply planning. My current work includes Python and SQL analysis, data validation and management dashboards for FairBanks' Community Health Intelligence Platform. I also use MATLAB and Excel.
+  Research, data analysis and reporting. I analysed laboratory data and developed Python research pipelines at the Uganda Virus Research Institute. At International Hospital Kampala, I developed and tested COVID-19 oxygen demand models for supply planning. My current work includes Python and SQL analysis, validation and dashboards for FairBanks' Community Health Intelligence Platform. I also use MATLAB and Excel.
 
-  Hospital management and independent consulting. I managed the biomedical function at International Hospital Kampala for four years, maintaining equipment records and compliance evidence for COHSASA accreditation. I now undertake independent equipment installation, commissioning, maintenance and clinical user training in Uganda, DR Congo, Kenya, Tanzania and Somaliland.
+  Hospital management and independent consulting. At International Hospital Kampala, I managed biomedical engineering for four years, supported COHSASA accreditation, and delivered theatre, laboratory, NICU and oxygen plant upgrades. I led installation of a 64-slice CT scanner and digital X-ray. My biomedical work includes equipment inventory, planning, assessment and technical advisory. I undertake independent installation, commissioning and maintenance assignments across Uganda, DR Congo, Kenya, Tanzania and Somaliland.
 
   Proposal and grant writing. I write institutional proposals, grant applications and partnership documents, including community health, accelerator and investment submissions for FairBanks, with financial annexes and supporting evidence.
 

@@ -41,6 +41,8 @@ PROFILE = (
     "I am a biomedical programmes leader, data analyst and full-stack software developer based "
     "in Kampala, "
     "with over nine years of work across health research, data systems and software engineering. "
+    "My biomedical work covers equipment inventory, needs assessment, planning and technical "
+    "advisory. "
     "As Biomedical Programs Manager at the Gould Family Foundation (GFF), I led biomedical "
     "engineers and technicians across seven countries in East, Central and Southern Africa. "
     "I also trained doctors, nurses and apprentices alongside these teams. "
@@ -74,10 +76,11 @@ HIGHLIGHTS = [
     "FCHIP management dashboards alongside the platform's data capture, database and cloud "
     "flows.",
 
-    "I developed the oxygen consumption formulas used to calculate patient demand during the "
-    "COVID-19 response at International Hospital Kampala, and I supported Ministry of Health "
-    "oxygen planning. I tested the model against real hospital demand, and it informed capacity "
-    "planning for later facility projects.",
+    "At International Hospital Kampala, I led upgrades to the theatre, laboratory, neonatal "
+    "intensive care unit (NICU) and oxygen plant, and the installation of a 64-slice CT scanner "
+    "and digital X-ray. I developed "
+    "oxygen demand models for hospital and Ministry of Health planning, and supported "
+    "successful COHSASA accreditation.",
 
     "I am building a cross-sector data collection and reporting application that writes the "
     "report as the user works, instead of leaving it to be compiled afterwards. I designed it for "
@@ -87,14 +90,9 @@ HIGHLIGHTS = [
     "handles live inbound client calls, books and reschedules appointments, and runs client "
     "follow-up. It is in active production use.",
 
-    "I prepared and maintained the biomedical compliance evidence that carried International "
-    "Hospital Kampala through successful COHSASA accreditation, which is data quality assurance "
-    "against a published standard.",
-
-    "I have delivered hospital technology projects in five countries: Uganda, the Democratic "
-    "Republic of Congo, Kenya, Tanzania and Somaliland, and I upgraded partner facilities for the "
-    "Gould Family Foundation including the neonatal intensive care unit at Mama Lucy Kibaki "
-    "Hospital, Nairobi.",
+    "At GFF, I led the NICU upgrade at Mama Lucy Kibaki Hospital "
+    "in Nairobi, Kenya, and developed standard operating procedures (SOPs) for supported "
+    "equipment at partner facilities.",
 ]
 
 # --------------------------------------------------------------------------
@@ -170,6 +168,11 @@ SKILLS = [
      "Microsoft Word  ·  Excel  ·  PowerPoint  ·  proposal, grant and investment writing  ·  "
      "technical writing  ·  document editing and design  ·  Windows, Linux and Android"),
 
+    ("Biomedical planning and advisory",
+     "Equipment inventory  ·  equipment and needs assessment  ·  facility master planning  ·  "
+     "technical advisory  ·  lifecycle management  ·  procurement specification  ·  "
+     "equipment SOP development"),
+
     ("Medical equipment",
      "CT and X-ray imaging  ·  ultrasound and C-arms  ·  ventilators, monitors and infusion "
      "pumps  ·  theatre and ICU systems  ·  haematology, chemistry and blood bank analysers  ·  "
@@ -208,13 +211,15 @@ EXPERIENCE = [
             "(FCHIP). I design the data capture forms, database structure and cloud data flows, "
             "and I deliver the platform across web and mobile.",
 
-            "I write FairBanks institutional proposals, grants, investment materials and "
-            "partnership documents, including the Community Health Reach proposal. I chaired the "
+            "I write FairBanks proposals, including Community Health Reach, accelerator and "
+            "fellowship applications, and maternity and diagnostics investments, with financial "
+            "annexes and evidence. I prepare partnership documents and pitch decks. I chaired the "
             "meeting with the Uganda Health Partners Cooperative on cooperative health insurance "
             "in July 2026.",
 
             "I own the technical documentation, the data-protection practice, the access control "
-            "and the release management across the platform.",
+            "and the release management across the platform, and I manage grant opportunities "
+            "and deadlines.",
         ],
     },
     {
@@ -244,15 +249,16 @@ EXPERIENCE = [
             "Malawi, Somaliland and Rwanda. I managed programme planning, implementation and "
             "reporting across partner health facilities in all seven countries.",
 
-            "I built and maintained the programme data: equipment registers, lifecycle records, "
-            "procurement documentation and the routine reports that went to management.",
+            "I managed equipment inventories, lifecycle records, procurement documentation and "
+            "programme reporting.",
 
-            "I developed the equipment lifecycle-management and master-planning strategies that "
-            "were then applied across partner facilities.",
+            "I assessed equipment needs, advised on lifecycle management and master planning, "
+            "and developed standard operating procedures (SOPs) for supported equipment at "
+            "partner facilities.",
 
-            "I upgraded several facilities, including the neonatal intensive care unit at Mama "
-            "Lucy Kibaki Hospital, Nairobi, where my oxygen and equipment demand modelling "
-            "informed the capacity plan.",
+            "I led the upgrade of the neonatal intensive care unit (NICU) at Mama Lucy Kibaki "
+            "Hospital in Nairobi, Kenya, using oxygen and equipment demand modelling to inform "
+            "the capacity plan.",
 
             "I led training programmes for biomedical engineers, technicians and clinical users, "
             "including doctors, nurses and apprentices.",
@@ -274,13 +280,14 @@ EXPERIENCE = [
             "I prepared and maintained the compliance evidence files reviewed for COHSASA "
             "accreditation, and I supported the hospital through successful accreditation.",
 
-            "I led the installation and commissioning of CT and X-ray imaging, oxygen plant, "
-            "laboratory, theatre and ICU systems through to handover, and I trained the clinical "
-            "users.",
+            "I led upgrades to the theatre, laboratory, neonatal intensive care unit (NICU) and "
+            "oxygen plant. I led the installation of a 64-slice CT scanner and digital X-ray, "
+            "commissioned equipment including ICU systems through to handover, and trained "
+            "clinical users.",
 
-            "I built the preventive maintenance schedules and service-record systems that reduced "
-            "equipment downtime, and I coordinated procurement, technical specification and "
-            "lifecycle management of hospital medical equipment.",
+            "I maintained equipment inventories, preventive maintenance schedules and service "
+            "records that reduced downtime, and coordinated equipment assessment, procurement, "
+            "technical specification and lifecycle planning.",
         ],
     },
     {
@@ -333,23 +340,21 @@ PROJECTS = [
      "analytics, giving hospital teams a shared view of patient care, hospital operations and "
      "management reporting."),
 
-    ("Institutional proposals, grants and investment materials",
-     "Lead Writer",
-     "FairBanks Medical Centre Limited",
-     "2026 to present",
-     "I write proposals, partnership documents and pitch decks for FairBanks, including "
-     "Community Health Reach, accelerator and fellowship applications, and maternity and "
-     "diagnostics investments. I prepare the narrative, financial annexes and supporting "
-     "evidence, and I manage application opportunities and deadlines."),
+    ("Mama Lucy Kibaki NICU upgrade and equipment SOPs",
+     "Biomedical Programs Manager",
+     "Gould Family Foundation, Nairobi, Kenya and partner facilities",
+     "Aug 2024 to Feb 2025",
+     "I led the NICU upgrade at Mama Lucy Kibaki Hospital in Nairobi, Kenya, with equipment "
+     "and oxygen needs assessment informing capacity planning. I also developed SOPs for "
+     "supported equipment at GFF partner facilities."),
 
-    ("COVID-19 oxygen therapy management and demand modelling",
+    ("IHK clinical infrastructure upgrades and imaging installations",
      "Biomedical Manager",
-     "International Hospital Kampala, with Ministry of Health planning support",
-     "2020 to 2022",
-     "I ran oxygen therapy management for the hospital through the pandemic and I developed the "
-     "formulas for calculating patient oxygen consumption. My figures were used to size plant "
-     "capacity, cylinder stock and flow requirements, and to support planning decisions at "
-     "managerial and national level."),
+     "International Hospital Kampala, Uganda",
+     "Jan 2020 to Jan 2024",
+     "I led upgrades to the theatre, laboratory, NICU and oxygen plant, and the installation "
+     "of a 64-slice CT scanner and digital X-ray. My oxygen demand modelling supported "
+     "hospital capacity decisions and Ministry of Health planning."),
 
     ("AI reception agent",
      "Designer and Developer",
@@ -395,9 +400,11 @@ COMPETENCIES = [
      "biomedical function for four years: workplans, schedules, procurement coordination and "
      "management reporting."),
 
-    ("Procurement, specification and compliance",
-     "I coordinated specification, procurement, commissioning and lifecycle documentation, and I "
-     "kept the compliance evidence reviewed for COHSASA accreditation."),
+    ("Equipment assessment, advisory and compliance",
+     "I assess equipment inventories and needs, advise on equipment and facility planning, "
+     "and coordinate procurement specification, commissioning and lifecycle documentation. "
+     "I develop equipment SOPs. I maintained the compliance evidence reviewed for COHSASA "
+     "accreditation."),
 
     ("Stakeholder and partnership management",
      "I chair partner meetings and write them up, and I work with hospital departments, "

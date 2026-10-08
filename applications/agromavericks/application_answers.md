@@ -75,6 +75,8 @@ I have practical experience with Next.js, TypeScript, Tailwind CSS, React Native
 
 As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. I trained engineering teams and clinical users, including doctors, nurses, and apprentices.
 
+My biomedical work includes equipment inventory, planning, assessment, and technical advisory. At IHK, I upgraded theatre, laboratory, NICU, and oxygen plant and led 64-slice CT scanner and digital X-ray installation. At GFF, I led the NICU upgrade at Mama Lucy Kibaki Hospital in Nairobi, Kenya, and developed SOPs for supported equipment in partner facilities.
+
 I live in Kampala, I can work in Uganda legally, and hybrid suits me. I would like to help keep the Agromavericks and Ukofi platforms stable and useful for farmers and financiers.
 
 ---

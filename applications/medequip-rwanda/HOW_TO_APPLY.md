@@ -92,7 +92,7 @@ Use plain language. Keep answers short, then offer one example.
 ### Q1. Tell us about yourself.
 
 **Answer:**
-I am a biomedical engineer and data analyst with over 7 years of hospital and field experience. At IHK, I led equipment installations, developed oxygen-consumption models, and maintained COHSASA compliance evidence. As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda, and trained engineering teams and clinical users, including doctors, nurses, and apprentices. At UVRI, I analysed laboratory data and developed research models and pipelines in Python. My independent work includes HOSSPI, which I founded and developed, and biomedical contracts including Congo installations at the hospital serving the Kibali Gold Mine. My current FairBanks role covers FCHIP data analysis, quality checks, dashboards, and reporting in Python and SQL.
+I am a biomedical engineer and data analyst with over 7 years of hospital and field experience. At IHK, I upgraded theatre, laboratory, NICU, and oxygen plant, led 64-slice CT scanner and digital X-ray installation, developed oxygen-consumption models, and maintained COHSASA compliance evidence. As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda, and trained engineering teams and clinical users, including doctors, nurses, and apprentices. At GFF, I also led the NICU upgrade at Mama Lucy Kibaki Hospital in Nairobi, Kenya, and developed SOPs for supported equipment in partner facilities. My work includes equipment inventory, planning, assessment, and technical advisory. At UVRI, I analysed laboratory data and developed research models and pipelines in Python. My independent work includes HOSSPI, which I founded and developed, and biomedical contracts including Congo installations at the hospital serving the Kibali Gold Mine. My current FairBanks role covers FCHIP data analysis, quality checks, dashboards, and reporting in Python and SQL.
 
 ### Q2. Why do you want this job / why Medequip?
 
@@ -114,12 +114,12 @@ I have **over 7 years** of relevant install and maintenance experience — more 
 **Answer:**
 
 - **Lab:** haematology analysers, chemistry analysers, blood bank machines
-- **Imaging:** CT, X-ray, ultrasound, C-arm
+- **Imaging:** CT (including 64-slice CT scanner installation), digital X-ray, ultrasound, C-arm
 - **Theatre / ICU:** theatre systems, ventilators, monitors, infusion pumps
 - **Support plant:** oxygen plant, RO water
 - **Maternity / neonatal:** incubators, phototherapy, foetal Doppler, CTG
 
-At IHK I led installs across lab, theatre, ICU, and radiology.
+At IHK, I upgraded theatre, laboratory, NICU, and oxygen plant and led installation of a 64-slice CT scanner and digital X-ray system. At GFF, I led the NICU upgrade at Mama Lucy Kibaki Hospital, Nairobi, Kenya. My equipment responsibilities also cover inventory, planning, assessment, and technical advisory.
 
 ### Q6. Can you travel within Rwanda and across borders?
 
@@ -134,7 +134,7 @@ After install or repair, I do a practical handover: show correct use and basic c
 ### Q8. How do you document your work?
 
 **Answer:**
-I write clear service and maintenance notes after each job — what was done, what was found, and what the client should watch. At IHK I also supported service records and COHSASA accreditation paperwork.
+I write clear service and maintenance notes after each job — what was done, what was found, and what the client should watch. At IHK I also maintained service records and COHSASA compliance evidence. At GFF, I developed standard operating procedures (SOPs) for supported equipment in partner facilities.
 
 ### Q9. Give an example of a hard field job.
 

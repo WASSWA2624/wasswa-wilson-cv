@@ -231,7 +231,9 @@ def label_table(doc, rows, label_w=1.66, size=9.5):
     no_table_borders(t)
     set_cell_margins(t, top=36, left=85, bottom=36, right=85)
     for i, (label, value) in enumerate(rows):
-        cells = t.add_row().cells
+        row = t.add_row()
+        row._tr.get_or_add_trPr().append(OxmlElement("w:cantSplit"))
+        cells = row.cells
         set_cell_width(cells[0], label_w)
         set_cell_width(cells[1], value_w)
         if i % 2 == 0:

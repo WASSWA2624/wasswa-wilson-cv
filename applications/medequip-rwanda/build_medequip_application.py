@@ -248,24 +248,21 @@ CONTACT = {
 }
 
 SUMMARY = (
-    "I am a biomedical engineer with over 7 years of hands-on hospital "
-    "experience: installing, commissioning, calibrating, maintaining, and "
-    "training users on medical equipment. I have carried out this work in "
-    "Uganda, the Democratic Republic of Congo, Kenya, Tanzania, and "
-    "Somaliland. As Biomedical Programs Manager at Gould Family Foundation "
+    "I am a biomedical engineer and data analyst with over 7 years of hospital "
+    "and field experience. As Biomedical Programs Manager at Gould Family Foundation "
     "(GFF), I led biomedical engineers and technicians across Uganda, Kenya, "
-    "Tanzania, Burundi, Malawi, Somaliland, and Rwanda. I currently also work "
-    "as a Data Analyst at FairBanks Medical Centre, using Python and SQL for "
-    "health-data quality checks, dashboards, and reporting. I am the Founder "
+    "Tanzania, Burundi, Malawi, Somaliland, and Rwanda. At IHK, I led laboratory, "
+    "theatre, ICU, and radiology installations, developed oxygen-consumption "
+    "models, and maintained COHSASA compliance evidence. At UVRI, I analysed "
+    "laboratory data and developed mathematical models and research pipelines "
+    "in Python. I am the Founder "
     "and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows, "
-    "biomedical engineering, and live analytics. At International Hospital "
-    "Kampala I led laboratory, theatre, ICU, and radiology equipment installations "
-    "and supported COHSASA accreditation. Since "
-    "March 2025 I have also worked on personal contracts for hospitals that "
-    "call me in for installs and service, including lab, theatre, and "
-    "radiology work in Congo (among them the hospital that serves the Kibali "
-    "Gold Mine). I travel independently for field installations, document service "
-    "work, and train clinical staff. I want to bring that regional "
+    "biomedical engineering, and live analytics. My independent biomedical "
+    "contracts since March 2025 cover Uganda, Congo, Kenya, Tanzania, and "
+    "Somaliland, including laboratory, theatre, and radiology installations "
+    "at the hospital serving the Kibali Gold Mine. My current FairBanks role "
+    "focuses on FCHIP data analysis in Python and SQL, data-quality checks, "
+    "dashboards, and reporting. I want to bring that regional "
     "field experience to Medequip's technical team and clients across Rwanda "
     "and beyond."
 )
@@ -307,8 +304,6 @@ ROLES = [
         "bullets": [
             "Analyse FCHIP health data in Python and SQL, define indicators "
             "and data-quality checks, and build dashboards for management reporting.",
-            "Alongside this role, Founder and Developer of HOSSPI (https://hosspi.com/), "
-            "connecting hospital workflows, biomedical engineering, and live analytics.",
         ],
     },
     {
@@ -339,8 +334,8 @@ ROLES = [
             "biomedical programmes from planning through to equipment readiness.",
             "Supported buying, installing, and commissioning of medical "
             "technologies for partner sites.",
-            "Trained and supported engineering teams on correct use and care "
-            "of equipment.",
+            "Trained biomedical engineers and technicians and clinical users, "
+            "including doctors, nurses, and apprentices, on equipment use and care.",
             "Kept work in line with healthcare technology and quality "
             "standards, including documentation for programme review.",
         ],
@@ -357,6 +352,8 @@ ROLES = [
             "analysers, and blood bank machines; imaging included CT and "
             "X-ray; ICU and theatre systems were part of the same programme.",
             "Also led installs of oxygen plant and related support systems.",
+            "Developed patient oxygen-consumption models for plant capacity, "
+            "cylinder-stock, and flow planning.",
             "Set up preventive maintenance routines to cut downtime and keep "
             "devices safe for clinical use.",
             "Supported procurement, lifecycle planning, service records, "
@@ -379,7 +376,8 @@ EARLIER = [
     (
         "Research Intern, Uganda Virus Research Institute",
         "Dec 2018 - Apr 2019",
-        "Supported biomedical research projects and laboratory data work.",
+        "Analysed laboratory data, developed mathematical models and research "
+        "pipelines in Python, and documented research-data quality.",
     ),
     (
         "Teaching Assistant, Makerere University, College of Health Sciences",
@@ -390,6 +388,8 @@ EARLIER = [
 ]
 
 ACHIEVEMENTS = [
+    "Founder and Developer of HOSSPI (https://hosspi.com/) — hospital workflows, "
+    "biomedical engineering, and live analytics; current independent software project.",
     "As Biomedical Programs Manager at GFF, led biomedical engineers and "
     "technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, "
     "and Rwanda.",
@@ -403,8 +403,8 @@ ACHIEVEMENTS = [
     "Gold Mine.",
     "Commissioned CT, X-ray, oxygen plant, and ICU systems in Uganda and "
     "supported COHSASA accreditation at IHK.",
-    "Trained engineers, technicians, and clinical users so equipment stays "
-    "useful after install day.",
+    "Trained biomedical engineers and technicians and clinical users, including "
+    "doctors, nurses, and apprentices, on equipment use and care.",
 ]
 
 EQUIPMENT = [
@@ -490,27 +490,26 @@ LETTER_BODY = [
         "maintenance, and staff training."
     ),
     (
-        "I have over 7 years installing, commissioning, maintaining, and "
-        "training users on hospital equipment. At Norvik Hospital I serviced "
-        "diagnostic and monitoring systems. During four years as Biomedical "
-        "Manager at International Hospital Kampala, I led laboratory, theatre, "
-        "ICU, and radiology installations. That included haematology analysers, chemistry "
-        "analysers, blood bank machines, CT, X-ray, oxygen plant, and ICU "
-        "systems, plus preventive maintenance, staff training, and COHSASA "
-        "accreditation support. As Biomedical Programs Manager at Gould "
+        "I have over 7 years in equipment installation, commissioning, maintenance, "
+        "and user training. I serviced diagnostic and monitoring systems at Norvik "
+        "Hospital. During four years as Biomedical Manager at IHK, I led laboratory, "
+        "theatre, ICU, radiology, and oxygen plant installations, developed oxygen-demand "
+        "models, and maintained COHSASA compliance evidence. As Biomedical Programs "
+        "Manager at Gould "
         "Family Foundation (GFF), I led biomedical engineers and technicians "
-        "across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda."
+        "across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. "
+        "I trained engineering teams and clinical users, including doctors, nurses, "
+        "and apprentices."
     ),
     (
-        "Since March 2025 I have undertaken personal biomedical contracts in "
-        "Uganda, Congo, Kenya, Tanzania, and Somaliland, handling installation, "
-        "maintenance, user training, and service documentation. In Congo, I "
-        "completed laboratory, theatre, and radiology installations, including "
-        "at the hospital serving the Kibali Gold Mine. I currently also work as a Data "
-        "Analyst at FairBanks Medical Centre, using Python and SQL for FCHIP "
-        "data-quality checks, dashboards, and reporting, and am the Founder and "
-        "Developer of HOSSPI (https://hosspi.com/), linking hospital workflows, "
-        "biomedical engineering, and live analytics."
+        "My independent biomedical contracts since March 2025 cover Uganda, Congo, "
+        "Kenya, Tanzania, and Somaliland, including laboratory, theatre, and radiology "
+        "installations at the hospital serving the Kibali Gold Mine. My analytical "
+        "background includes laboratory research and Python modelling at UVRI. As "
+        "Founder and Developer of HOSSPI (https://hosspi.com/), I link hospital workflows, "
+        "biomedical engineering, and live analytics. Separately, at FairBanks Medical "
+        "Centre, I currently analyse FCHIP data using Python, SQL, data-quality checks, "
+        "and reporting dashboards."
     ),
     (
         "I hold a BSc in Biomedical Engineering from Makerere University, "

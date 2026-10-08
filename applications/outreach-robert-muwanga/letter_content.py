@@ -30,41 +30,41 @@ LETTER_BODY = [
      "My colleague Juliet suggested that I write to you and share my CV, and I am glad to do so."),
 
     (None,
-     "My name is Wasswa Wilson. I am a data analyst, biomedical engineer and full-stack software "
-     "developer based in Kampala, with over nine years of work across health research, data "
-     "systems and software engineering. I would welcome a conversation about where my experience "
-     "could be useful to you or your network."),
-
-    ("Current data analysis and reporting",
-     "At FairBanks Medical Centre, I analyse health data in Python and SQL, define indicators and "
-     "validation rules, and build management reporting dashboards for the FairBanks Community "
-     "Health Intelligence Platform. I design its data capture tools and cloud data flows, check "
-     "the quality of the records behind the reports, and build automated auditing and "
-     "verification tools. I also work with MATLAB and Excel."),
+     "My name is Wasswa Wilson. I am a biomedical programmes leader, data analyst and full-stack "
+     "software developer based in Kampala, with over nine years across hospital engineering, "
+     "research and software. My experience includes seven-country team leadership at GFF, "
+     "independent consulting and founding HOSSPI. I would welcome a conversation about where "
+     "this experience could be useful to you or your network."),
 
     ("Regional biomedical programme leadership",
      "As Biomedical Programs Manager at the Gould Family Foundation, I led biomedical engineers "
      "and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and Rwanda. "
-     "I directed regional programme planning, implementation and reporting, maintained equipment "
-     "and lifecycle records, and led training for engineers, technicians and clinical staff."),
-
-    ("Research and analysis",
-     "I began at the Uganda Virus Research Institute doing laboratory data analysis, mathematical "
-     "modelling and research pipeline design in Python. At International Hospital Kampala, where "
-     "I managed the biomedical function for four years, I developed oxygen consumption formulas "
-     "during the COVID-19 response and tested them against hospital demand to support supply and "
-     "capacity planning."),
-
-    ("Proposal and grant writing",
-     "I write and edit what FairBanks submits: community health project proposals, accelerator "
-     "and fellowship applications, investment proposals and partnership documents, with the "
-     "financial annexes and supporting evidence."),
+     "I managed regional planning, implementation and reporting, and trained biomedical "
+     "engineers, technicians and clinical users, including doctors, nurses and apprentices."),
 
     ("Hospital software development",
      "I am the founder and developer of HOSSPI (https://hosspi.com/), a hospital management "
      "system connecting patient records, clinical care, laboratory and pharmacy workflows, "
-     "billing and reporting. It also supports biomedical engineering and role-based access. "
+     "billing and live analytics. It also supports biomedical engineering and role-based access. "
      "I am also building a cross-sector application for data collection and reporting."),
+
+    ("Research, data analysis and reporting",
+     "At the Uganda Virus Research Institute, I analysed laboratory data and developed research "
+     "pipelines in Python. At International Hospital Kampala, I developed and tested oxygen "
+     "demand models during COVID-19 to support supply planning. My current work includes Python "
+     "and SQL analysis, data validation and management dashboards for FairBanks' Community "
+     "Health Intelligence Platform. I also use MATLAB and Excel."),
+
+    ("Hospital management and independent consulting",
+     "I managed the biomedical function at International Hospital Kampala for four years, "
+     "maintaining equipment records and compliance evidence for COHSASA accreditation. I now "
+     "undertake independent equipment installation, commissioning, maintenance and clinical "
+     "user training in Uganda, DR Congo, Kenya, Tanzania and Somaliland."),
+
+    ("Proposal and grant writing",
+     "I write institutional proposals, grant applications and partnership documents, including "
+     "community health, accelerator and investment submissions for FairBanks, with financial "
+     "annexes and supporting evidence."),
 
     (None,
      "I have attached my CV, together with a single file containing this letter, the CV and my "
@@ -89,23 +89,23 @@ EMAIL_BODY = """Dear Mr. Muwanga,
 
 My colleague Juliet suggested I write to you and share my CV, so please allow me to introduce myself.
 
-I am Wasswa Wilson, a data analyst, biomedical engineer and full-stack software developer based in Kampala. My experience combines current health data analysis and reporting at FairBanks Medical Centre with regional biomedical programme leadership and research.
+I am Wasswa Wilson, a biomedical programmes leader, data analyst and full-stack software developer based in Kampala. My experience spans seven-country team leadership at GFF, founding HOSSPI, hospital management, research and independent consulting.
 
 My experience includes:
 
-  Current data analysis. At FairBanks, I analyse health data in Python and SQL, define indicators and validation rules, check data quality, and build management dashboards for the FairBanks Community Health Intelligence Platform. I also use MATLAB and Excel and build automated auditing and verification tools.
+  Regional programme leadership. As Biomedical Programs Manager at the Gould Family Foundation, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and Rwanda. I managed regional planning, implementation and reporting, and trained biomedical engineers, technicians and clinical users, including doctors, nurses and apprentices.
 
-  Regional programme leadership. As Biomedical Programs Manager at the Gould Family Foundation, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and Rwanda. I directed programme planning, implementation, reporting and training across partner health facilities.
+  Hospital software development. I am the founder and developer of HOSSPI (https://hosspi.com/), a hospital management system connecting patient records, clinical care, laboratory and pharmacy workflows, billing and live analytics. It also supports biomedical engineering and role-based access.
 
-  Research and analysis. I began at the Uganda Virus Research Institute doing laboratory data analysis, mathematical modelling and research pipeline design in Python. During the COVID-19 response at International Hospital Kampala, I developed oxygen consumption formulas and tested them against hospital demand to support supply and capacity planning.
+  Research, data analysis and reporting. At the Uganda Virus Research Institute, I analysed laboratory data and developed research pipelines in Python. At International Hospital Kampala, I developed and tested oxygen demand models during COVID-19 to support supply planning. My current work includes Python and SQL analysis, data validation and management dashboards for FairBanks' Community Health Intelligence Platform. I also use MATLAB and Excel.
 
-  Proposal and grant writing. I write FairBanks community health proposals, accelerator applications and investment proposals, with the annexes and evidence files that go with them.
+  Hospital management and independent consulting. I managed the biomedical function at International Hospital Kampala for four years, maintaining equipment records and compliance evidence for COHSASA accreditation. I now undertake independent equipment installation, commissioning, maintenance and clinical user training in Uganda, DR Congo, Kenya, Tanzania and Somaliland.
 
-  Hospital software development. I am the founder and developer of HOSSPI (https://hosspi.com/), a hospital management system connecting patient records, clinical care, laboratory and pharmacy workflows, billing and reporting. It also supports biomedical engineering and role-based access.
+  Proposal and grant writing. I write institutional proposals, grant applications and partnership documents, including community health, accelerator and investment submissions for FairBanks, with financial annexes and supporting evidence.
 
-Alongside this I am building an application that simplifies data collection and reporting for record-heavy professions, accounting and audit among them, producing the report in real time as the work is done.
+Alongside this, I am building an application for real-time data collection and reporting across accounting, research and other fields.
 
-I am not writing about a specific vacancy. This is an open introduction, and if anything here is useful to you or to someone in your network, I would be glad of a short conversation.
+This is an open introduction. If my experience could be useful to you or someone in your network, I would welcome a short conversation.
 
 I have attached:
 

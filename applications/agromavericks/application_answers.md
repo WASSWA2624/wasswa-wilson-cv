@@ -29,7 +29,7 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 | Field | Answer |
 | --- | --- |
 | Years of professional experience | **5-7 years** (use **8+** if you count programming from 2017) |
-| Current / most recent role & company | Lead Software Developer and Data Analyst, FairBanks Medical Centre (FCHIP); Founder and Developer, HOSSPI (https://hosspi.com/); previously Biomedical Programs Manager, Gould Family Foundation (GFF), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda |
+| Current / most recent role & company | Founder and Developer of HOSSPI (https://hosspi.com/). Separately: Lead Software Developer and Data Analyst for FCHIP at FairBanks Medical Centre. Previously: Biomedical Programs Manager at GFF, leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda |
 | Highest education / certification | BSc Biomedical Engineering, Makerere University (Second Upper Honours); Certificate in Leadership and Management in Health, University of Washington (A+) |
 
 ### Which of these have you shipped to production?
@@ -55,7 +55,7 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 1. **HOSSPI (current)** - Founder and Developer of a hospital management platform connecting shared patient records, clinical, laboratory and pharmacy workflows, billing and finance, biomedical engineering, role-based permissions, multi-facility management, and live analytics. Link: https://hosspi.com/
 
-2. **FCHIP / FairBanks Medical Centre (current)** - I lead FCHIP and related hospital software at FairBanks: community health tools, clinic workflows, web/mobile delivery, and cloud data flows. As a data analyst, I analyse health data in Python and SQL, define indicators and data-quality checks, and build reporting dashboards. Link: [TO CONFIRM]
+2. **FCHIP / FairBanks Medical Centre (current role)** - Lead FCHIP software development and analyse its health data in Python and SQL, defining indicators, data-quality checks, and reporting dashboards. Link: [TO CONFIRM]
 
 3. **AI reception agent for a law firm in Texas (USA)** - Built and deployed an AI reception agent the firm uses in live work. It answers incoming calls, manages appointments, and follows up with clients. Link / demo: [TO CONFIRM]
 
@@ -71,7 +71,9 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 I applied because Agromavericks is building real software for agricultural financing in Uganda, and you are growing an in-house tech team. That is the kind of work I want to do.
 
-I already have practical experience with the tools in your stack: Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus Node APIs, databases, auth, testing, and CI/CD. At FairBanks Medical Centre I lead FCHIP development and analyse health data using Python, SQL, data-quality checks, and reporting dashboards. I am the Founder and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows and live analytics. I have also shipped Shulekeeper, endoscopy reporting software, and Wekebere. Separately, I built and deployed an AI reception agent for a law firm in Texas that answers calls, manages appointments, and follows up with clients.
+I have practical experience with Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus APIs, databases, authentication, testing, and CI/CD. As Founder and Developer of HOSSPI (https://hosspi.com/), I connect hospital workflows and live analytics. My other software work includes Shulekeeper, endoscopy reporting, Wekebere, and an AI reception agent deployed at a Texas law firm. My analytical background includes oxygen-demand modelling and compliance evidence at IHK, laboratory analysis and Python research pipelines at UVRI, and current FCHIP reporting at FairBanks using Python, SQL, data-quality checks, and dashboards.
+
+As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. I trained engineering teams and clinical users, including doctors, nurses, and apprentices.
 
 I live in Kampala, I can work in Uganda legally, and hybrid suits me. I would like to help keep the Agromavericks and Ukofi platforms stable and useful for farmers and financiers.
 

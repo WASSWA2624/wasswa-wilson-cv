@@ -92,7 +92,7 @@ Use plain language. Keep answers short, then offer one example.
 ### Q1. Tell us about yourself.
 
 **Answer:**
-I am a biomedical engineer with over 7 years of hospital and field work. I install, commission, maintain, and train users on medical equipment. I worked at Norvik Hospital, then spent four years as Biomedical Manager at International Hospital Kampala. As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. Since March 2025 I have also worked on personal contracts, including lab, theatre, and radiology installs in Congo, among them the hospital that serves the Kibali Gold Mine. I currently work as a Data Analyst at FairBanks Medical Centre, using Python and SQL for FCHIP data-quality checks, dashboards, and reporting. I am applying because Medequip’s work matches my biomedical experience.
+I am a biomedical engineer and data analyst with over 7 years of hospital and field experience. At IHK, I led equipment installations, developed oxygen-consumption models, and maintained COHSASA compliance evidence. As Biomedical Programs Manager at GFF, I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda, and trained engineering teams and clinical users, including doctors, nurses, and apprentices. At UVRI, I analysed laboratory data and developed research models and pipelines in Python. My independent work includes HOSSPI, which I founded and developed, and biomedical contracts including Congo installations at the hospital serving the Kibali Gold Mine. My current FairBanks role covers FCHIP data analysis, quality checks, dashboards, and reporting in Python and SQL.
 
 ### Q2. Why do you want this job / why Medequip?
 
@@ -129,7 +129,7 @@ Yes. I already travel for field jobs. I have worked on site in **Uganda, Congo, 
 ### Q7. How do you train hospital staff?
 
 **Answer:**
-After install or repair, I do a practical handover: show correct use and basic care, answer questions on site, and leave the team able to run the device safely. I have trained engineers, technicians, and clinical users.
+After install or repair, I do a practical handover: show correct use and basic care, answer questions on site, and leave the team able to run the device safely. At GFF, I trained biomedical engineers and technicians and clinical users, including doctors, nurses, and apprentices.
 
 ### Q8. How do you document your work?
 
@@ -159,7 +159,7 @@ I am ready to relocate to Kigali for this role. Start date can follow your inter
 ### Q13. What is your current work situation?
 
 **Answer:**
-I currently work as a Data Analyst at FairBanks Medical Centre (2026–present), analysing FCHIP health data in Python and SQL, defining indicators and data-quality checks, and building reporting dashboards. I am also the Founder and Developer of [HOSSPI](https://hosspi.com/), connecting hospital workflows, biomedical engineering, and live analytics. I also work on personal biomedical contracts, which I started in March 2025. Before that I was Biomedical Programs Manager at Gould Family Foundation (Aug 2024–Feb 2025), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. Previously, I was Biomedical Manager at IHK (Jan 2020–Jan 2024).
+I am the Founder and Developer of [HOSSPI](https://hosspi.com/), connecting hospital workflows, biomedical engineering, and live analytics. I undertake independent biomedical contracts, which I started in March 2025. Separately, my current Data Analyst role at FairBanks Medical Centre (2026–present) covers FCHIP analysis in Python and SQL, indicators, data-quality checks, and reporting dashboards. My earlier roles were Biomedical Programs Manager at GFF (Aug 2024–Feb 2025) and Biomedical Manager at IHK (Jan 2020–Jan 2024).
 
 ### Q14. What salary do you expect?
 

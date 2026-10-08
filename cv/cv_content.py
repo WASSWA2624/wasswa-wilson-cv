@@ -38,19 +38,20 @@ CONTACT_LINES = [
 # --------------------------------------------------------------------------
 
 PROFILE = (
-    "I currently work as a data analyst and lead software developer at FairBanks Medical Centre "
-    "in Kampala. I analyse health data in Python and SQL, define reporting indicators and "
-    "validation rules, and develop management dashboards for the FairBanks Community Health "
-    "Intelligence Platform (FCHIP). I am also a biomedical engineer and researcher, "
+    "I am a biomedical programmes leader, data analyst and full-stack software developer based "
+    "in Kampala, "
     "with over nine years of work across health research, data systems and software engineering. "
     "As Biomedical Programs Manager at the Gould Family Foundation (GFF), I led biomedical "
     "engineers and technicians across seven countries in East, Central and Southern Africa. "
-    "I began in research at the Uganda Virus Research Institute and later developed oxygen "
-    "demand models used in hospital and national planning during COVID-19. My current work "
-    "combines data analysis, automated auditing, hospital software through my HOSSPI platform, "
-    "and institutional proposal writing. I also work in MATLAB and Excel, and I design AI "
-    "agents and automations "
-    "running in production."
+    "I also trained doctors, nurses and apprentices alongside these teams. "
+    "I founded and develop HOSSPI, my hospital management platform. My data work includes "
+    "analysis in Python, SQL, MATLAB and Excel, data validation, automated auditing and "
+    "management dashboards. At International Hospital Kampala, I managed the biomedical "
+    "function, developed COVID-19 oxygen demand models for hospital and national planning, and "
+    "supported COHSASA accreditation. My research experience includes laboratory data analysis "
+    "and mathematical modelling at the Uganda Virus Research Institute. I also undertake "
+    "independent biomedical consulting across five countries, develop software and production "
+    "AI agents, and write institutional proposals."
 )
 
 # --------------------------------------------------------------------------
@@ -58,23 +59,25 @@ PROFILE = (
 # --------------------------------------------------------------------------
 
 HIGHLIGHTS = [
-    "I currently analyse community screening, referral and follow-up data at FairBanks in "
-    "Python and SQL. I define reporting indicators and data-quality checks, and I develop FCHIP "
-    "management dashboards alongside the platform's data capture, database and cloud flows.",
-
     "As Biomedical Programs Manager at the Gould Family Foundation (GFF), I led biomedical "
     "engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland and "
     "Rwanda. I managed programme planning, implementation and reporting across partner health "
-    "facilities, and I led training for biomedical teams and clinical staff.",
+    "facilities, and I led training for biomedical engineers, technicians and clinical users, "
+    "including doctors, nurses and apprentices.",
+
+    "I founded and develop HOSSPI, a hospital management system covering patient records, "
+    "clinical, laboratory, pharmacy and billing workflows. The platform includes biomedical "
+    "engineering, role-based permissions, multi-facility management and live analytics.",
+
+    "My current data analysis work includes community screening, referral and follow-up data "
+    "in Python and SQL. I define reporting indicators and data-quality checks, and I develop "
+    "FCHIP management dashboards alongside the platform's data capture, database and cloud "
+    "flows.",
 
     "I developed the oxygen consumption formulas used to calculate patient demand during the "
     "COVID-19 response at International Hospital Kampala, and I supported Ministry of Health "
     "oxygen planning. I tested the model against real hospital demand, and it informed capacity "
     "planning for later facility projects.",
-
-    "I founded and develop HOSSPI, a hospital management system covering patient records, "
-    "clinical, laboratory, pharmacy and billing workflows. The platform includes biomedical "
-    "engineering, role-based permissions, multi-facility management and live analytics.",
 
     "I am building a cross-sector data collection and reporting application that writes the "
     "report as the user works, instead of leaving it to be compiled afterwards. I designed it for "
@@ -108,16 +111,14 @@ RESEARCH = [
      "COVID-19 oxygen demand modelling."),
 
     ("Data management at scale",
-     "I design and run the data layer of FCHIP: capture schemas, validation rules, cloud data "
-     "flows, storage and synchronisation across web and mobile. Earlier I built and maintained "
-     "the equipment registers, maintenance schedules and service histories for multi-facility "
-     "programmes at International Hospital Kampala and the Gould Family Foundation, and kept them "
-     "accurate enough to survive accreditation review."),
+     "I built and maintained equipment registers, maintenance schedules and service histories "
+     "at International Hospital Kampala and the Gould Family Foundation. I now design and run "
+     "FCHIP's data layer, including capture schemas, validation rules, cloud flows, storage and "
+     "synchronisation across web and mobile."),
 
     ("Analysis and reporting",
-     "I analyse in Python, SQL, MATLAB and Excel. I publish results as live management dashboards "
-     "rather than static documents, so decision-makers work from current numbers, and I build "
-     "automated auditing and verification tooling that checks records in bulk instead of by hand."),
+     "I analyse data in Python, SQL, MATLAB and Excel, build live management dashboards, and "
+     "develop automated auditing and verification tools that check records in bulk."),
 
     ("Proposals, grants and technical writing",
      "I write and edit institutional proposals, grant applications, investment proposals, concept "
@@ -182,6 +183,19 @@ SKILLS = [
 
 EXPERIENCE = [
     {
+        "role": "Founder and Developer",
+        "org": "HOSSPI Hospital Management System",
+        "dates": "Current",
+        "bullets": [
+            "I founded HOSSPI and develop its hospital management platform, integrating patient "
+            "records with clinical, laboratory, pharmacy, billing and biomedical engineering "
+            "workflows.",
+
+            "I develop role-based permissions, multi-facility management and live analytics to "
+            "support hospital teams' operational and reporting needs.",
+        ],
+    },
+    {
         "role": "Data Analyst and Lead Software Developer, FCHIP and Health Information Systems",
         "org": "FairBanks Medical Centre Limited, Kampala, Uganda",
         "dates": "2026 to present",
@@ -194,21 +208,10 @@ EXPERIENCE = [
             "(FCHIP). I design the data capture forms, database structure and cloud data flows, "
             "and I deliver the platform across web and mobile.",
 
-            "I write and edit the institutional proposals, grant applications, investment "
-            "materials and partnership documents FairBanks submits, including the full project "
-            "proposal for FairBanks Community Health Reach. I chaired the "
-            "FairBanks meeting with the Uganda Health Partners Cooperative on cooperative health "
-            "insurance in July 2026.",
-
-            "I am building a cross-sector data collection and reporting application that turns "
-            "work already being done into finished reports in real time, for accounting, research "
-            "and laboratory science, biology, agriculture, social media and similar record-heavy "
-            "fields.",
-
-            "I design and deploy the AI agents and automation pipelines that remove manual "
-            "handling from reception, appointment management, client follow-up and routine "
-            "reporting, and I architect and maintain the hospital and clinic software that staff "
-            "use daily.",
+            "I write FairBanks institutional proposals, grants, investment materials and "
+            "partnership documents, including the Community Health Reach proposal. I chaired the "
+            "meeting with the Uganda Health Partners Cooperative on cooperative health insurance "
+            "in July 2026.",
 
             "I own the technical documentation, the data-protection practice, the access control "
             "and the release management across the platform.",
@@ -251,8 +254,8 @@ EXPERIENCE = [
             "Lucy Kibaki Hospital, Nairobi, where my oxygen and equipment demand modelling "
             "informed the capacity plan.",
 
-            "I led the biomedical and clinical user training programmes for engineers, "
-            "technicians and clinical staff.",
+            "I led training programmes for biomedical engineers, technicians and clinical users, "
+            "including doctors, nurses and apprentices.",
         ],
     },
     {
@@ -334,11 +337,10 @@ PROJECTS = [
      "Lead Writer",
      "FairBanks Medical Centre Limited",
      "2026 to present",
-     "I write and edit what FairBanks submits: the full project proposal "
-     "for FairBanks Community Health Reach, accelerator and fellowship applications, investment "
-     "proposals for the maternity and diagnostics projects, partnership documents and pitch "
-     "decks. I handle the narrative, the annexes, the financial presentation and the evidence "
-     "files, and I maintain the pipeline of opportunities and deadlines."),
+     "I write proposals, partnership documents and pitch decks for FairBanks, including "
+     "Community Health Reach, accelerator and fellowship applications, and maternity and "
+     "diagnostics investments. I prepare the narrative, financial annexes and supporting "
+     "evidence, and I manage application opportunities and deadlines."),
 
     ("COVID-19 oxygen therapy management and demand modelling",
      "Biomedical Manager",
@@ -402,8 +404,8 @@ COMPETENCIES = [
      "suppliers, trainees, accreditation assessors, donors and prospective partners."),
 
     ("Training and capacity building",
-     "I trained biomedical engineers, technicians and clinical users across multiple facilities, "
-     "and I taught undergraduate engineering laboratory practicals at Makerere University."),
+     "At GFF, I trained biomedical engineers, technicians, doctors, nurses and apprentices. "
+     "I also taught undergraduate engineering laboratory practicals at Makerere University."),
 
     ("Communication and adaptability",
      "I write and speak clear English and I present comfortably to clinical, executive and donor "

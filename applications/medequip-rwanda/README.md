@@ -29,4 +29,5 @@ Attach the cover letter and CV (PDF is fine). You can also use the Apply button 
 
 - **For Medequip:** 7+ years field engineer - install, maintain, train, document, travel (Uganda + Congo, incl. Kibali Gold Mine hospital).  
 - **For Wasswa:** steady Medequip role in Kigali, regional service work, and international product training.  
-- **Recent work:** personal contracts since Mar 2025 (lab, theatre, radiology installs in Congo).
+- **Regional leadership:** Biomedical Programs Manager at GFF (Aug 2024–Feb 2025), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda.
+- **Current work:** Data Analyst at FairBanks Medical Centre (2026–present), analysing FCHIP health data with Python and SQL, data-quality checks, dashboards, and reporting; Founder and Developer of [HOSSPI](https://hosspi.com/), connecting hospital workflows, biomedical engineering, and live analytics; personal biomedical contracts since Mar 2025 (lab, theatre, radiology installs in Congo).

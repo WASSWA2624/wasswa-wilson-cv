@@ -46,16 +46,16 @@ CONTACT = {
 }
 
 SUMMARY = (
-    "I am a full-stack developer based in Kampala. I build web and mobile apps, and I have "
-    "worked with the main tools listed in this job: Next.js, TypeScript, Tailwind CSS, "
-    "React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, "
-    "Vercel, and EAS. I also use Node.js, SQL databases, Prisma, JWT and role-based access, "
-    "testing tools, and CI/CD. On top of that I have solid experience with Java, PHP, MySQL, "
-    "Azure, and AWS. Right now I lead software work at FairBanks Medical Centre on FCHIP "
-    "and hospital systems. I have also built and deployed an AI reception agent for a law "
-    "firm in Texas that answers calls, manages appointments, and follows up with clients. "
-    "Before that I built school and clinic software, and I also spent several years managing "
-    "biomedical programmes in hospitals."
+    "I am a full-stack developer based in Kampala, building web and mobile apps, APIs, "
+    "authentication, messaging, cloud deployments, and automated testing. I am the Founder "
+    "and Developer of HOSSPI (https://hosspi.com/), a hospital management platform connecting "
+    "patient records, clinical workflows, billing, biomedical engineering, and live analytics. "
+    "At FairBanks Medical Centre, I lead FCHIP development and analyse health data using "
+    "Python and SQL, data-quality checks, and reporting dashboards. I also built and deployed "
+    "an AI reception agent for a law firm in Texas, handling calls, appointments, and client "
+    "follow-up. As Biomedical Programs Manager at "
+    "Gould Family Foundation (GFF), I led biomedical engineers and technicians across "
+    "Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda."
 )
 
 SKILLS = [
@@ -80,11 +80,13 @@ SKILLS = [
 
 SOFTWARE_ROLES = [
     {
-        "title": "Lead Software Developer, FairBanks Medical Centre (FCHIP)",
+        "title": "Lead Software Developer and Data Analyst, FairBanks Medical Centre (FCHIP)",
         "dates": "Current",
         "bullets": [
             "Lead FCHIP development: tools that help FairBanks follow and improve community "
             "health work around the medical centre.",
+            "Analyse FCHIP health data in Python and SQL, define indicators and data-quality "
+            "checks, and build dashboards for management reporting.",
             "Build and maintain hospital and clinic software used by staff day to day.",
             "Work across web and mobile with Next.js, TypeScript, Tailwind, React Native/Expo, "
             "Convex, auth, messaging, CDN, and cloud deploy, including storage and data sync.",
@@ -94,15 +96,20 @@ SOFTWARE_ROLES = [
 
 PROJECTS = [
     {
+        "name": "HOSSPI (hospital management platform)",
+        "meta": "Founder and Developer | Current | https://hosspi.com/",
+        "bullets": [
+            "Founded and developed a platform connecting shared patient records, clinical, "
+            "laboratory and pharmacy workflows, billing and finance, and biomedical engineering.",
+            "Integrated role-based permissions, multi-facility management, and live analytics.",
+        ],
+    },
+    {
         "name": "AI reception agent (law firm, Texas, USA)",
         "meta": "Built and deployed; in active use",
         "bullets": [
-            "Built and deployed an AI reception agent for a law firm in Texas that handles "
-            "incoming client calls in live use.",
-            "The agent manages appointments (book, reschedule, and related scheduling) so "
-            "staff spend less time on the phone.",
-            "It also follows up with clients after contact, helping the firm stay on top of "
-            "leads and ongoing matters.",
+            "Built and deployed an AI reception agent in active use at a Texas law firm, "
+            "handling incoming calls, appointment booking and rescheduling, and client follow-up.",
         ],
     },
     {
@@ -111,9 +118,8 @@ PROJECTS = [
         "bullets": [
             "Helped build the web app with React/Next.js and TypeScript, Laravel on the "
             "backend, MySQL, and AWS hosting.",
-            "Joined requirement talks, built UI pieces, plugged in third-party tools, and "
-            "helped with testing and upgrades.",
-            "Trained users and wrote simple manuals so staff could run the system themselves.",
+            "Gathered requirements, built UI components and integrations, tested and upgraded "
+            "the system, trained users, and wrote manuals.",
         ],
     },
     {
@@ -142,9 +148,11 @@ BIOMED_ROLES = [
         "title": "Biomedical Programs Manager, Gould Family Foundation (GFF)",
         "dates": "Aug 2024 - Feb 2025",
         "bullets": [
-            "Ran biomedical programmes across several health facilities: planning, buying, "
-            "installing, and commissioning equipment.",
-            "Trained engineers and technicians and kept work in line with healthcare tech standards.",
+            "Led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, "
+            "Malawi, Somaliland, and Rwanda, directing biomedical programme planning, equipment "
+            "procurement, installation, and commissioning.",
+            "Trained and supported engineering teams and kept work in line with healthcare "
+            "technology standards.",
         ],
     },
     {
@@ -231,8 +239,9 @@ def add_heading_run(paragraph, text: str, size: int, bold: bool = True, color=No
 
 def section_title(doc: Document, text: str) -> None:
     p = doc.add_paragraph()
-    p.paragraph_format.space_before = Pt(10)
-    p.paragraph_format.space_after = Pt(4)
+    p.paragraph_format.space_before = Pt(8)
+    p.paragraph_format.space_after = Pt(2)
+    p.paragraph_format.keep_with_next = True
     add_heading_run(p, text.upper(), 11, True, RGBColor(0x0F, 0x2C, 0x4C))
     # thin underline via bottom border on paragraph
     pPr = p._p.get_or_add_pPr()
@@ -261,7 +270,7 @@ def body_para(doc: Document, text: str, space_after: int = 6) -> None:
 
 def bullet(doc: Document, text: str) -> None:
     p = doc.add_paragraph(text, style="List Bullet")
-    p.paragraph_format.space_after = Pt(2)
+    p.paragraph_format.space_after = Pt(1)
     p.paragraph_format.space_before = Pt(0)
     p.paragraph_format.left_indent = Inches(0.2)
     for run in p.runs:
@@ -286,6 +295,7 @@ def role_header(doc: Document, title: str, dates: str) -> None:
 def build_cv_docx(path: Path) -> None:
     doc = Document()
     set_docx_defaults(doc)
+    doc.styles["Normal"].paragraph_format.line_spacing = 1.0
 
     name = doc.add_paragraph()
     name.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -412,12 +422,20 @@ def build_letter_docx(path: Path) -> None:
         "Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, "
         "Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS. I also work with Node.js "
         "APIs, SQL databases, Prisma, JWT and role-based access, testing, and CI/CD, plus "
-        "Java, PHP, MySQL, Azure, and AWS. At FairBanks Medical Centre I currently lead "
-        "FCHIP and hospital software. I have also shipped Shulekeeper (Next.js, TypeScript, "
+        "Java, PHP, MySQL, Azure, and AWS. At FairBanks Medical Centre I lead FCHIP development "
+        "and analyse health data with Python, SQL, data-quality checks, and dashboards. I am the "
+        "Founder and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows "
+        "and live analytics. I have also shipped Shulekeeper (Next.js, TypeScript, "
         "Laravel, AWS), endoscopy reporting software for two hospitals, and the Wekebere "
         "Android monitoring app. Separately, I built and deployed an AI reception agent for "
         "a law firm in Texas that answers calls, manages appointments, and follows up with "
         "clients - and it is in active use.",
+    )
+    body_para(
+        doc,
+        "As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical "
+        "engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, "
+        "Somaliland, and Rwanda.",
     )
     body_para(
         doc,
@@ -693,12 +711,20 @@ def build_letter_pdf(path: Path) -> None:
             "Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, "
             "Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS. I also work with Node.js "
             "APIs, SQL databases, Prisma, JWT and role-based access, testing, and CI/CD, plus "
-            "Java, PHP, MySQL, Azure, and AWS. At FairBanks Medical Centre I currently lead "
-            "FCHIP and hospital software. I have also shipped Shulekeeper (Next.js, TypeScript, "
+            "Java, PHP, MySQL, Azure, and AWS. At FairBanks Medical Centre I lead FCHIP development "
+            "and analyse health data with Python, SQL, data-quality checks, and dashboards. I am the "
+            "Founder and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows "
+            "and live analytics. I have also shipped Shulekeeper (Next.js, TypeScript, "
             "Laravel, AWS), endoscopy reporting software for two hospitals, and the Wekebere "
             "Android monitoring app. Separately, I built and deployed an AI reception agent for "
             "a law firm in Texas that answers calls, manages appointments, and follows up with "
             "clients - and it is in active use.",
+            styles["LetterBody"],
+        ),
+        Paragraph(
+            "As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical "
+            "engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, "
+            "Somaliland, and Rwanda.",
             styles["LetterBody"],
         ),
         Paragraph(
@@ -743,14 +769,14 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 | --- | --- |
 | GitHub | [TO CONFIRM - paste profile URL] |
 | LinkedIn | [TO CONFIRM - paste profile URL] |
-| Portfolio / website | [TO CONFIRM - or leave blank] |
+| Portfolio / website | https://hosspi.com/ — HOSSPI, Founder and Developer |
 
 ## Experience
 
 | Field | Answer |
 | --- | --- |
 | Years of professional experience | **5-7 years** (use **8+** if you count programming from 2017) |
-| Current / most recent role & company | Lead Software Developer, FairBanks Medical Centre (FCHIP); previously Biomedical Programs Manager, Gould Family Foundation |
+| Current / most recent role & company | Lead Software Developer and Data Analyst, FairBanks Medical Centre (FCHIP); Founder and Developer, HOSSPI (https://hosspi.com/); previously Biomedical Programs Manager, Gould Family Foundation (GFF), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda |
 | Highest education / certification | BSc Biomedical Engineering, Makerere University (Second Upper Honours); Certificate in Leadership and Management in Health, University of Washington (A+) |
 
 ### Which of these have you shipped to production?
@@ -774,15 +800,17 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 ## Projects you've built - include links
 
-1. **FCHIP / FairBanks Medical Centre (current)** - I lead FCHIP and related hospital software at FairBanks: community health tools, clinic workflows, web/mobile delivery, and cloud data flows. Link: [TO CONFIRM]
+1. **HOSSPI (current)** - Founder and Developer of a hospital management platform connecting shared patient records, clinical, laboratory and pharmacy workflows, billing and finance, biomedical engineering, role-based permissions, multi-facility management, and live analytics. Link: https://hosspi.com/
 
-2. **AI reception agent for a law firm in Texas (USA)** - Built and deployed an AI reception agent the firm uses in live work. It answers incoming calls, manages appointments, and follows up with clients. Link / demo: [TO CONFIRM]
+2. **FCHIP / FairBanks Medical Centre (current)** - I lead FCHIP and related hospital software at FairBanks: community health tools, clinic workflows, web/mobile delivery, and cloud data flows. As a data analyst, I analyse health data in Python and SQL, define indicators and data-quality checks, and build reporting dashboards. Link: [TO CONFIRM]
 
-3. **Shulekeeper (2021-2024)** - School information system. I helped with React/Next.js + TypeScript, Laravel, MySQL, and AWS. Assistant Software Developer. Link: [TO CONFIRM]
+3. **AI reception agent for a law firm in Texas (USA)** - Built and deployed an AI reception agent the firm uses in live work. It answers incoming calls, manages appointments, and follows up with clients. Link / demo: [TO CONFIRM]
 
-4. **Endoscopy reporting software (2017-2019)** - Lead developer for image capture and reporting at St. Catherine Hospital and St. Francis Hospital (JavaFX, MySQL). Link: [TO CONFIRM if any]
+4. **Shulekeeper (2021-2024)** - School information system. I helped with React/Next.js + TypeScript, Laravel, MySQL, and AWS. Assistant Software Developer. Link: [TO CONFIRM]
 
-5. **Wekebere (2017-2024)** - Android + Arduino fetal heart-rate monitoring app with Azure. Link: [TO CONFIRM if any]
+5. **Endoscopy reporting software (2017-2019)** - Lead developer for image capture and reporting at St. Catherine Hospital and St. Francis Hospital (JavaFX, MySQL). Link: [TO CONFIRM if any]
+
+6. **Wekebere (2017-2024)** - Android + Arduino fetal heart-rate monitoring app with Azure. Link: [TO CONFIRM if any]
 
 ---
 
@@ -790,7 +818,7 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 I applied because Agromavericks is building real software for agricultural financing in Uganda, and you are growing an in-house tech team. That is the kind of work I want to do.
 
-I already have practical experience with the tools in your stack: Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus Node APIs, databases, auth, testing, and CI/CD. At FairBanks Medical Centre I lead FCHIP and hospital software that people use every day. I have also shipped Shulekeeper, endoscopy reporting software, and Wekebere. Separately, I built and deployed an AI reception agent for a law firm in Texas that answers calls, manages appointments, and follows up with clients.
+I already have practical experience with the tools in your stack: Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus Node APIs, databases, auth, testing, and CI/CD. At FairBanks Medical Centre I lead FCHIP development and analyse health data using Python, SQL, data-quality checks, and reporting dashboards. I am the Founder and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows and live analytics. I have also shipped Shulekeeper, endoscopy reporting software, and Wekebere. Separately, I built and deployed an AI reception agent for a law firm in Texas that answers calls, manages appointments, and follows up with clients.
 
 I live in Kampala, I can work in Uganda legally, and hybrid suits me. I would like to help keep the Agromavericks and Ukofi platforms stable and useful for farmers and financiers.
 

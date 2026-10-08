@@ -22,14 +22,14 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 | --- | --- |
 | GitHub | [TO CONFIRM - paste profile URL] |
 | LinkedIn | [TO CONFIRM - paste profile URL] |
-| Portfolio / website | [TO CONFIRM - or leave blank] |
+| Portfolio / website | https://hosspi.com/ — HOSSPI, Founder and Developer |
 
 ## Experience
 
 | Field | Answer |
 | --- | --- |
 | Years of professional experience | **5-7 years** (use **8+** if you count programming from 2017) |
-| Current / most recent role & company | Lead Software Developer, FairBanks Medical Centre (FCHIP); previously Biomedical Programs Manager, Gould Family Foundation |
+| Current / most recent role & company | Lead Software Developer and Data Analyst, FairBanks Medical Centre (FCHIP); Founder and Developer, HOSSPI (https://hosspi.com/); previously Biomedical Programs Manager, Gould Family Foundation (GFF), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda |
 | Highest education / certification | BSc Biomedical Engineering, Makerere University (Second Upper Honours); Certificate in Leadership and Management in Health, University of Washington (A+) |
 
 ### Which of these have you shipped to production?
@@ -53,15 +53,17 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 ## Projects you've built - include links
 
-1. **FCHIP / FairBanks Medical Centre (current)** - I lead FCHIP and related hospital software at FairBanks: community health tools, clinic workflows, web/mobile delivery, and cloud data flows. Link: [TO CONFIRM]
+1. **HOSSPI (current)** - Founder and Developer of a hospital management platform connecting shared patient records, clinical, laboratory and pharmacy workflows, billing and finance, biomedical engineering, role-based permissions, multi-facility management, and live analytics. Link: https://hosspi.com/
 
-2. **AI reception agent for a law firm in Texas (USA)** - Built and deployed an AI reception agent the firm uses in live work. It answers incoming calls, manages appointments, and follows up with clients. Link / demo: [TO CONFIRM]
+2. **FCHIP / FairBanks Medical Centre (current)** - I lead FCHIP and related hospital software at FairBanks: community health tools, clinic workflows, web/mobile delivery, and cloud data flows. As a data analyst, I analyse health data in Python and SQL, define indicators and data-quality checks, and build reporting dashboards. Link: [TO CONFIRM]
 
-3. **Shulekeeper (2021-2024)** - School information system. I helped with React/Next.js + TypeScript, Laravel, MySQL, and AWS. Assistant Software Developer. Link: [TO CONFIRM]
+3. **AI reception agent for a law firm in Texas (USA)** - Built and deployed an AI reception agent the firm uses in live work. It answers incoming calls, manages appointments, and follows up with clients. Link / demo: [TO CONFIRM]
 
-4. **Endoscopy reporting software (2017-2019)** - Lead developer for image capture and reporting at St. Catherine Hospital and St. Francis Hospital (JavaFX, MySQL). Link: [TO CONFIRM if any]
+4. **Shulekeeper (2021-2024)** - School information system. I helped with React/Next.js + TypeScript, Laravel, MySQL, and AWS. Assistant Software Developer. Link: [TO CONFIRM]
 
-5. **Wekebere (2017-2024)** - Android + Arduino fetal heart-rate monitoring app with Azure. Link: [TO CONFIRM if any]
+5. **Endoscopy reporting software (2017-2019)** - Lead developer for image capture and reporting at St. Catherine Hospital and St. Francis Hospital (JavaFX, MySQL). Link: [TO CONFIRM if any]
+
+6. **Wekebere (2017-2024)** - Android + Arduino fetal heart-rate monitoring app with Azure. Link: [TO CONFIRM if any]
 
 ---
 
@@ -69,7 +71,7 @@ Attach: `Wasswa_Wilson_CV_AgroMavericks.pdf` (or `.docx`)
 
 I applied because Agromavericks is building real software for agricultural financing in Uganda, and you are growing an in-house tech team. That is the kind of work I want to do.
 
-I already have practical experience with the tools in your stack: Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus Node APIs, databases, auth, testing, and CI/CD. At FairBanks Medical Centre I lead FCHIP and hospital software that people use every day. I have also shipped Shulekeeper, endoscopy reporting software, and Wekebere. Separately, I built and deployed an AI reception agent for a law firm in Texas that answers calls, manages appointments, and follows up with clients.
+I already have practical experience with the tools in your stack: Next.js, TypeScript, Tailwind CSS, React Native and Expo, Convex, Better Auth, Resend, WhatsApp messaging, Bunny.net, Vercel, and EAS, plus Node APIs, databases, auth, testing, and CI/CD. At FairBanks Medical Centre I lead FCHIP development and analyse health data using Python, SQL, data-quality checks, and reporting dashboards. I am the Founder and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows and live analytics. I have also shipped Shulekeeper, endoscopy reporting software, and Wekebere. Separately, I built and deployed an AI reception agent for a law firm in Texas that answers calls, manages appointments, and follows up with clients.
 
 I live in Kampala, I can work in Uganda legally, and hybrid suits me. I would like to help keep the Agromavericks and Ukofi platforms stable and useful for farmers and financiers.
 

@@ -17,6 +17,7 @@ Design notes
 
 import os
 import sys
+from html import escape
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -26,6 +27,7 @@ from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_TAB_ALIGNMENT
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.opc.constants import RELATIONSHIP_TYPE
 from docx.shared import Inches, Pt, RGBColor
 
 from reportlab.lib import colors
@@ -173,6 +175,18 @@ def run(par, text, size=10, bold=False, italic=False, color=INK_RGB,
         sp.set(qn("w:val"), str(spacing))
         rPr.append(sp)
     return r
+
+
+def web_link(par, url, size=9.6):
+    relationship = par.part.relate_to(
+        url, RELATIONSHIP_TYPE.HYPERLINK, is_external=True
+    )
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), relationship)
+    link_run = run(par, url, size=size, color=TEAL_RGB)
+    link_run.underline = True
+    hyperlink.append(link_run._r)
+    par._p.append(hyperlink)
 
 
 def para(container, space_before=0, space_after=4, align=None, line=1.02,
@@ -365,6 +379,10 @@ def build_docx():
         entry_sub(doc, role + "  ·  " + org, after=2.0)
         p = para(doc, space_after=2, align=WD_ALIGN_PARAGRAPH.JUSTIFY)
         run(p, detail, size=9.6)
+        url = C.PROJECT_LINKS.get(name)
+        if url:
+            run(p, "  Website: ", size=9.6)
+            web_link(p, url)
 
     # ---- education -------------------------------------------------------
     section(doc, "Education")
@@ -602,6 +620,12 @@ def build_pdf():
     # ---- projects --------------------------------------------------------
     pdf_section(story, s, "Selected projects")
     for i, (name, role, org, period, detail) in enumerate(C.PROJECTS):
+        url = C.PROJECT_LINKS.get(name)
+        if url:
+            detail += (
+                f'  Website: <a href="{escape(url, quote=True)}" '
+                f'color="#{TEAL_HEX}">{escape(url)}</a>'
+            )
         story.append(Spacer(1, 4.5 if i else 0))
         story.append(KeepTogether([
             head_row(s, name, period),

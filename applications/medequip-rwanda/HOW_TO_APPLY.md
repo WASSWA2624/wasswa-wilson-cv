@@ -80,7 +80,7 @@ Never pay anyone for an interview or “extra certification” for this process.
 
 ## 4. Quick win-win pitch (for calls / interviews)
 
-- **What Medequip gets:** A field biomedical engineer who already installs, maintains, trains users, writes service notes, and travels — including Uganda, Congo, Kenya, Tanzania, and Somaliland.
+- **What Medequip gets:** A field biomedical engineer who installs, maintains, trains users, writes service notes, and travels — including Uganda, Congo, Kenya, Tanzania, and Somaliland. At GFF, I also led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda.
 - **What you want:** A steady Medequip role in Kigali, regional service work, and international product training.
 
 ---
@@ -92,7 +92,7 @@ Use plain language. Keep answers short, then offer one example.
 ### Q1. Tell us about yourself.
 
 **Answer:**
-I am a biomedical engineer with over 7 years of hospital and field work. I install, commission, maintain, and train users on medical equipment. I worked at Norvik Hospital, then spent four years as Biomedical Manager at International Hospital Kampala, then managed programmes for the Gould Family Foundation. Since March 2025 I have been on personal contracts — including lab, theatre, and radiology installs in Congo, among them the hospital that serves the Kibali Gold Mine. I am applying because Medequip’s work matches what I already do on site.
+I am a biomedical engineer with over 7 years of hospital and field work. I install, commission, maintain, and train users on medical equipment. I worked at Norvik Hospital, then spent four years as Biomedical Manager at International Hospital Kampala. As Biomedical Programs Manager at Gould Family Foundation (GFF), I led biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. Since March 2025 I have also worked on personal contracts, including lab, theatre, and radiology installs in Congo, among them the hospital that serves the Kibali Gold Mine. I currently work as a Data Analyst at FairBanks Medical Centre, using Python and SQL for FCHIP data-quality checks, dashboards, and reporting. I am applying because Medequip’s work matches my biomedical experience.
 
 ### Q2. Why do you want this job / why Medequip?
 
@@ -124,7 +124,7 @@ At IHK I led installs across lab, theatre, ICU, and radiology.
 ### Q6. Can you travel within Rwanda and across borders?
 
 **Answer:**
-Yes. I already travel for field jobs. I have worked in **Uganda, Congo, Kenya, Tanzania, and Somaliland**. I am ready to relocate to Kigali and travel for Medequip assignments.
+Yes. I already travel for field jobs. I have worked on site in **Uganda, Congo, Kenya, Tanzania, and Somaliland**. At GFF, I led biomedical engineers and technicians across **Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda**. I am ready to relocate to Kigali and travel for Medequip assignments.
 
 ### Q7. How do you train hospital staff?
 
@@ -159,7 +159,7 @@ I am ready to relocate to Kigali for this role. Start date can follow your inter
 ### Q13. What is your current work situation?
 
 **Answer:**
-Since March 2025 I work on personal biomedical contracts for hospitals that call me in. Before that I was Biomedical Programs Manager at Gould Family Foundation (Aug 2024–Feb 2025), and before that Biomedical Manager at IHK (Jan 2020–Jan 2024).
+I currently work as a Data Analyst at FairBanks Medical Centre (2026–present), analysing FCHIP health data in Python and SQL, defining indicators and data-quality checks, and building reporting dashboards. I am also the Founder and Developer of [HOSSPI](https://hosspi.com/), connecting hospital workflows, biomedical engineering, and live analytics. I also work on personal biomedical contracts, which I started in March 2025. Before that I was Biomedical Programs Manager at Gould Family Foundation (Aug 2024–Feb 2025), leading biomedical engineers and technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda. Previously, I was Biomedical Manager at IHK (Jan 2020–Jan 2024).
 
 ### Q14. What salary do you expect?
 

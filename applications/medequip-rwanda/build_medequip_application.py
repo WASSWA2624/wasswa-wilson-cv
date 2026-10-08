@@ -252,16 +252,20 @@ SUMMARY = (
     "experience: installing, commissioning, calibrating, maintaining, and "
     "training users on medical equipment. I have carried out this work in "
     "Uganda, the Democratic Republic of Congo, Kenya, Tanzania, and "
-    "Somaliland. At International Hospital Kampala I led equipment "
-    "installation across the laboratory, theatre, ICU, and radiology "
-    "departments - covering haematology analysers, chemistry analysers, blood "
-    "bank machines, CT, X-ray, oxygen plant, and critical-care systems. Since "
+    "Somaliland. As Biomedical Programs Manager at Gould Family Foundation "
+    "(GFF), I led biomedical engineers and technicians across Uganda, Kenya, "
+    "Tanzania, Burundi, Malawi, Somaliland, and Rwanda. I currently also work "
+    "as a Data Analyst at FairBanks Medical Centre, using Python and SQL for "
+    "health-data quality checks, dashboards, and reporting. I am the Founder "
+    "and Developer of HOSSPI (https://hosspi.com/), connecting hospital workflows, "
+    "biomedical engineering, and live analytics. At International Hospital "
+    "Kampala I led laboratory, theatre, ICU, and radiology equipment installations "
+    "and supported COHSASA accreditation. Since "
     "March 2025 I have also worked on personal contracts for hospitals that "
     "call me in for installs and service, including lab, theatre, and "
     "radiology work in Congo (among them the hospital that serves the Kibali "
-    "Gold Mine). I am used to travelling for field jobs, working independently "
-    "on site, writing clear service and maintenance notes, and handing over "
-    "equipment with trained clinical staff. I want to bring that regional "
+    "Gold Mine). I travel independently for field installations, document service "
+    "work, and train clinical staff. I want to bring that regional "
     "field experience to Medequip's technical team and clients across Rwanda "
     "and beyond."
 )
@@ -298,6 +302,16 @@ SKILLS = [
 
 ROLES = [
     {
+        "title": "Data Analyst, FairBanks Medical Centre (FCHIP)",
+        "dates": "2026 - Present",
+        "bullets": [
+            "Analyse FCHIP health data in Python and SQL, define indicators "
+            "and data-quality checks, and build dashboards for management reporting.",
+            "Alongside this role, Founder and Developer of HOSSPI (https://hosspi.com/), "
+            "connecting hospital workflows, biomedical engineering, and live analytics.",
+        ],
+    },
+    {
         "title": "Independent Biomedical Engineer (personal contracts)",
         "dates": "Mar 2025 - Present",
         "bullets": [
@@ -320,12 +334,13 @@ ROLES = [
         "title": "Biomedical Programs Manager, Gould Family Foundation (GFF)",
         "dates": "Aug 2024 - Feb 2025",
         "bullets": [
-            "Ran biomedical programmes across several health facilities, from "
-            "planning through to equipment readiness.",
+            "Led biomedical engineers and technicians across Uganda, Kenya, "
+            "Tanzania, Burundi, Malawi, Somaliland, and Rwanda, directing "
+            "biomedical programmes from planning through to equipment readiness.",
             "Supported buying, installing, and commissioning of medical "
             "technologies for partner sites.",
-            "Trained engineers and technicians on correct use and care of "
-            "equipment.",
+            "Trained and supported engineering teams on correct use and care "
+            "of equipment.",
             "Kept work in line with healthcare technology and quality "
             "standards, including documentation for programme review.",
         ],
@@ -375,6 +390,9 @@ EARLIER = [
 ]
 
 ACHIEVEMENTS = [
+    "As Biomedical Programs Manager at GFF, led biomedical engineers and "
+    "technicians across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, "
+    "and Rwanda.",
     "7+ years of hands-on hospital biomedical work across Uganda, Congo, "
     "Kenya, Tanzania, and Somaliland.",
     "At IHK, led equipment installation across laboratory, theatre, ICU, and "
@@ -467,39 +485,37 @@ LETTER_DATE = "28 July 2026"
 LETTER_BODY = [
     "Dear Hiring Manager,",
     (
-        "I am applying for the Biomedical Engineer job at Medequip Healthcare "
-        "Ltd in Kigali. Your team installs equipment, keeps it running, and "
-        "trains hospital staff across Rwanda and beyond. That is the work I "
-        "already do on the ground, and I want to do it with Medequip."
+        "I am applying for Medequip's Biomedical Engineer role in Kigali, "
+        "bringing hospital and regional experience in equipment installation, "
+        "maintenance, and staff training."
     ),
     (
         "I have over 7 years installing, commissioning, maintaining, and "
         "training users on hospital equipment. At Norvik Hospital I serviced "
-        "diagnostic and monitoring systems day to day. At International "
-        "Hospital Kampala I spent four years as Biomedical Manager - leading "
-        "equipment installation across the laboratory, theatre, ICU, and "
-        "radiology departments. That included haematology analysers, chemistry "
+        "diagnostic and monitoring systems. During four years as Biomedical "
+        "Manager at International Hospital Kampala, I led laboratory, theatre, "
+        "ICU, and radiology installations. That included haematology analysers, chemistry "
         "analysers, blood bank machines, CT, X-ray, oxygen plant, and ICU "
         "systems, plus preventive maintenance, staff training, and COHSASA "
-        "accreditation support. I later managed biomedical programmes for the "
-        "Gould Family Foundation across several facilities."
+        "accreditation support. As Biomedical Programs Manager at Gould "
+        "Family Foundation (GFF), I led biomedical engineers and technicians "
+        "across Uganda, Kenya, Tanzania, Burundi, Malawi, Somaliland, and Rwanda."
     ),
     (
-        "Since March 2025 I have worked on personal contracts: installing and "
-        "maintaining equipment for hospitals that call me in. That includes "
-        "lab, theatre, and radiology jobs in Congo, among them the hospital "
-        "that serves the Kibali Gold Mine. On the lab side I handle "
-        "haematology analysers, chemistry analysers, and blood bank machines. "
-        "I have done this kind of field work in Uganda, Congo, Kenya, "
-        "Tanzania, and Somaliland - travel to site, install or repair, train "
-        "users, and leave clear service notes."
+        "Since March 2025 I have undertaken personal biomedical contracts in "
+        "Uganda, Congo, Kenya, Tanzania, and Somaliland, handling installation, "
+        "maintenance, user training, and service documentation. In Congo, I "
+        "completed laboratory, theatre, and radiology installations, including "
+        "at the hospital serving the Kibali Gold Mine. I currently also work as a Data "
+        "Analyst at FairBanks Medical Centre, using Python and SQL for FCHIP "
+        "data-quality checks, dashboards, and reporting, and am the Founder and "
+        "Developer of HOSSPI (https://hosspi.com/), linking hospital workflows, "
+        "biomedical engineering, and live analytics."
     ),
     (
-        "I hold a BSc in Biomedical Engineering from Makerere University, but "
-        "what I bring Medequip is field experience: show up, install or "
-        "repair, train the team, document the job, and travel when needed. I "
-        "speak clear English, I am ready to relocate to Kigali, and I am keen "
-        "to learn your product lines through international training."
+        "I hold a BSc in Biomedical Engineering from Makerere University, "
+        "speak fluent English, and am ready to relocate to Kigali, travel for "
+        "assignments, and learn your product lines through international training."
     ),
     (
         "My CV is attached. Thank you for your time - I would be glad to talk."
@@ -1178,17 +1194,18 @@ def build_letter_pdf(path: Path) -> None:
         )
         story.append(Paragraph(para, style))
 
-    story.append(Paragraph("Yours sincerely,", styles["LetterLeft"]))
+    closing = [Paragraph("Yours sincerely,", styles["LetterLeft"])]
     if SIGNATURE_SRC.exists():
-        story.append(Spacer(1, 2))
-        story.append(
+        closing.append(Spacer(1, 2))
+        closing.append(
             signature_block_pdf(
                 styles, "LetterSignName", "LetterSignTitle", width_mm=38
             )
         )
     else:
-        story.append(Paragraph("Wasswa Wilson", styles["LetterSignName"]))
-        story.append(Paragraph("Biomedical Engineer", styles["LetterSignTitle"]))
+        closing.append(Paragraph("Wasswa Wilson", styles["LetterSignName"]))
+        closing.append(Paragraph("Biomedical Engineer", styles["LetterSignTitle"]))
+    story.append(KeepTogether(closing))
     doc.build(story, canvasmaker=NumberedCanvas)
 
 
